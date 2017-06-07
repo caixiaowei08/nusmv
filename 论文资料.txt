@@ -1,0 +1,5 @@
+nuxmv -int file.smv
+go_msat
+build_boolean_model
+bmc_setup
+check_ltlspec_inc_coi_bmc -k 200
